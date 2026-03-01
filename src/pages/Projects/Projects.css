@@ -1,0 +1,154 @@
+.project {
+  font-family: 'Poppins', sans-serif; 
+    margin: 60px 0px;
+    margin-left: 140px;
+    background-color: black;
+  }
+  .pb-3 {
+    font-family: 'Poppins', sans-serif; 
+    margin-left: 120px;
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Distribute content to push the button down */
+    flex-grow: 1; /* Ensure the body stretches to fill the available space */
+    padding: 20px;
+  }
+  
+  
+  .project hr {
+    font-family: 'Poppins', sans-serif; 
+
+    color: white;
+    width: 400px;
+    margin: 10px auto;
+    
+  }
+  
+  .project h2 {
+    font-family: 'Poppins', sans-serif; 
+
+    font-weight: bold;
+    color: white;
+    
+  }
+  
+  #ads {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: 'Poppins', sans-serif; 
+    background-color: black;
+    
+  }
+  #ads .card {
+    max-width: 300px; /* Adjust the width as needed */
+    margin: 10px auto; /* Centers the cards */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+}
+  
+  #ads .card-notify-badge {
+    font-family: 'Poppins', sans-serif; 
+    position: absolute;
+    left: -10px;
+    top: -20px;
+    background: #f29f67;
+    text-align: center;
+    border-radius: 30px 30px 30px 30px;
+    color: black;
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+  
+  .project .card img {
+    font-family: 'Poppins', sans-serif; 
+    height: 150px;
+    width: 100%;
+  }
+  
+  .card-detail-badge {
+    font-family: 'Poppins', sans-serif; 
+
+    background-color: #e0b50f;
+    text-align: center;
+    border-radius: 30px 30px 30px 30px;
+    color: black;
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+  .card-image-overly {
+    font-family: 'Poppins', sans-serif; 
+
+    font-size: 20px;
+  }
+  .card-image-overly span {
+    font-family: 'Poppins', sans-serif; 
+
+    display: inline-block;
+    margin-left: 5px;
+  }
+  
+  .project .card:hover {
+    font-family: 'Poppins', sans-serif; 
+
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 12px 15px 20px 0px rgba(46, 61, 73, 0.15);
+    transition: all 1s ease;
+  }
+  
+  
+.ad-btn {
+  font-family: 'Poppins', sans-serif; 
+  text-transform: uppercase;
+  width: 150px;
+  height: 40px;
+  display: block;
+  text-align: center;
+  background-color: #138781;
+  color: white;
+  border-radius: 80px;
+  font-size: 16px;
+  line-height: 35px;
+  text-decoration: none;
+  margin: 0 auto; /* Center the button horizontally */
+  position: relative;
+}
+  
+  .ad-btn:hover {
+    
+    background-color: white;
+    color: #138781;
+    background: transparent;
+    border: 2px solid #138781;
+    transition: all 0.5s ease;
+    box-shadow: 12px 15px 20px 0px rgba(46, 61, 73, 0.15);
+  }
+
+  .project p {
+    text-align: center; /* Centers the paragraph text */
+    font-size: clamp(1rem, 2.5vw, 1.2rem);
+    line-height: 1.6;
+    max-width: 80%;
+    margin: 0 auto; /* Ensures it stays centered */
+}
+  
+
+  /* =============================== */
+  @media (max-width: 600px) {
+    .project {
+      margin: 0;
+      padding: 0;
+      margin-top: 50px;
+    }
+    .project hr {
+      width: 280px;
+    }
+    .project .card {
+      margin-top: 30px;
+    }
+  }
